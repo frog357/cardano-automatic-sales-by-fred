@@ -172,6 +172,7 @@ done < "$input"
 /ready/busy/
 /sale2img/
 ```
+Copy the included getwork.asp and setwork.asp into the /ready/ folder.
 Place the wallets file in the _CurrentSale folder like this: /_CurrentSale/Wallets.txt == Real important, do not use this name, .txt could allow someone to download your entire list of predefined wallet addresses. This is shown here as an example. You should not do this in production.
 
 
