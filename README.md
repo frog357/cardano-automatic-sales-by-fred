@@ -142,8 +142,8 @@ do
   let "iii=iii+1";
 done < "$input"
 ```
-8. In my website examples I used a concept of .work and .busy files. I was trying to use an approach that did not rely on a database. I wanted the simplest approach I could think of with the least amount of moving pieces. KISS concept. A database was too many layers, too much overhead. I was under the impression these sales events were hard and that previously people needed multiple servers and it was common to see a sale event take down the server. You could easily adapt this to use your favorite database platform.
-# 7b. Make a folder named www and copy the wallets.txt into this folder. cd into the new directory so it's the current directory and make the work files the website needs using this script.
+8a. In my website examples I used a concept of .work and .busy files. I was trying to use an approach that did not rely on a database. I wanted the simplest approach I could think of with the least amount of moving pieces. KISS concept. A database was too many layers, too much overhead. I was under the impression these sales events were hard and that previously people needed multiple servers and it was common to see a sale event take down the server. You could easily adapt this to use your favorite database platform.
+8b. Make a folder named www and copy the wallets.txt into this folder. cd into the new directory so it's the current directory and make the work files the website needs using this script.
 ```
 ######################################
 ### BUILD .work files for website. ###
