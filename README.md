@@ -172,9 +172,14 @@ done < "$input"
 /ready/busy/
 /sale2img/
 ```
+Place the wallets file in the _CurrentSale folder like this: /_CurrentSale/Wallets.txt == Real important, do not use this name, .txt could allow someone to download your entire list of predefined wallet addresses. This is shown here as an example. You should not do this in production.
+
+
 10. Read through each asp page and look for information like pricing that needs to be changed. I was a little sloppy in some areas as clients changed their mind about their plans often.
 11. Copy the 2 bash scripts located in the scripts folder to your sellvaule01 folder. Edit the payout amounts and look over the file for any information that needs to be changed. The scripts are pretty basic.
 12. To make a sale live and start checking for payments I open a terminal and run a loop like this:
 ```
 for i in {1..10000000}; do   ./check4saleswork.sh;   sleep 10s; done
 ```
+
+
