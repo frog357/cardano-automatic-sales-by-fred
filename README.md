@@ -1,0 +1,1 @@
+# cardano-automatic-sales-by-fred
