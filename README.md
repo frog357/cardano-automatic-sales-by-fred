@@ -2,6 +2,8 @@
 
 Want to host your own automatic NFT sale on Cardano with native assets minted on demand?
 
+The minting code is based on cardano-node 1.25.1. Many changed have taken place in the 2-3 versions since this code was created. You will need to move some variables from one command to another because some things changed upstream with how certain files were used and during which step they were applied. There are other changes like slotNo to slot that need to be addressed if you use this with a more modern cardano-node. You can also calculate the exact amount of lovelace to send with the NFT instead of always sending more than enough.
+
 The idea to release this into the public came with no attempt to clean up my code, I do not expect anyone to use this code as-is, the Classic ASP code requires special software and is not as widely used as php. This is meant as a learning tool in order to help you design your own system. It is possible to use this and run a sale, I have hosted multiple sales using this software.
 
 Some caveats regarding this setup, special permissions are required on your web server if you attempt to use the asp pages, a change under basic authentiation might be needed from the specific user to pool, and you might need to change some permissions so the website can rename files. I provide a test.asp page you can use to confirm if you have the right permissions. You can reach me on Twitter at @fredrovicius and I will offer some support but I am hoping you just use this to make something on your own.
